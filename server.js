@@ -15,7 +15,7 @@ const port = process.env.VCAP_APP_PORT || 5000
 app.get ('/hello', (req, res) => {
   console.log ("how are you!")
   console.log(req.query.user)
-  res.send("hello"+' '+req.query.user)
+  res.send("hello1"+' '+req.query.user)
 })
 
 app.get ('/weather', (req, res) => {
